@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf-frontend">
+    <meta name="csrf-token" content="NHBLUDNCRXBuARE2fSFzEW4RZjVdCD88awcAMQQ4DRJlBjw.Wyh8Qw==">
+    <title>My Yii Application</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/toastr.min.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="fonts/icomoon.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+    <link href="css/morris.min.css" rel="stylesheet">
+</head>
+
+<body>
+ <div class="wrapper">
+     <section class="user-dashboard">
+        <div class="row">
+            <div class="left-sticky">
+                <header class="navbar-placed-top">
+                    <nav class="navbar">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                              <a href="/" class="navbar-brand" title="A+ Skill"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 589.189 99.525" enable-background="new 0 0 589.189 99.525"
+                              xml:space="preserve"></svg>
+                              </a>
+                            </div>
+
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <span class="menu-label">Services</span>
+                                    <ul id="main-fixed-nav" class="collapse navbar-collapse">
+                                        <li class="nav-item active"><a class="nav-link" href="/dashboard"><i class="icon-bubbles4"></i>Equipment</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/user"><i class="icon-bubbles4"></i>Consumables</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/user"><i class="icon-bubbles4"></i>Ambulance</a></li>
+                                    </ul>
+                                <span class="menu-label">Jobs</span>
+                                     <ul id="main-fixed-nav" class="collapse navbar-collapse">
+                                        <li class="nav-item"><a class="nav-link" href="/offers"><i class="icon-bubbles4"></i>Equipment</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/user"><i class="icon-bubbles4"></i>Consumables</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/user"><i class="icon-bubbles4"></i>Ambulance</a></li>
+                                     </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </nav>
+                </header>
+            </div>
+
+            <div class="dash-content">
+                <ul class="nav-user navbar-right">
+                    <div class="col-lg-8">
+                       <div class="col-lg-8">
+                           <div class="input-group">
+                          <span class="input-group-addon" id="basic-addon3">Services</span>
+                          <input type="text" class="form-control normal-border-radius remove-right-border" id="basic-url" placeholder="Plumber in Nairobi">
+                          <i class="icon-search input-group-addon"></i>
+                        </div>
+                       </div>
+                       <div class="col-lg-4">
+                            <button class="btn btn-sm btn-info">Advertise</button>
+                       </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span><i class="icon-notifications_active"></i></span></a>
+                        </li>
+                        <li class="dropdown">
+                          <a href="" class="dropdown-toggle logged_in_user" data-toggle="dropdown">
+                          <img src="uploads/2016/11/keke-palmer-01112011-620x400.jpg" class="avatar img-circle" alt="Avatar">                  <strong>Caleb Nasio</strong>
+                          </a>
+                          <ul class="dropdown-menu square primary margin-list-rounded with-triangle"><li class="nav-item"><a class="nav-link" href="/user-profile/view?id=63574202">My Account</a></li>
+                            <li><a class="dropdown-item" href="/site/logout" data-method="post"><span>Sign out</span></a></li>
+                          </ul>
+                        </li>
+                    </div>
+                </ul>
+                <div class="dash-widgets">
+                    <div class="row">
+                        <div class="col-md-8 ">
+                            <span class="dash-widgets-heading">Job Request</span>
+                            <div class="suggested-pros bx-shadow">
+                                <div class="pro-row">
+                                    <span>
+                                        <span class="profile" style="background-image:url(/images/professional.jpg);"></span>
+                                    </span>
+                                    <div class="job-heading">I need something done did</div>
+                                    <div class="user">Joseph Murimi - <span style="font-weight: 300">Nairobi ke</span></div>
+
+                                    <div class="job-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Curabitur luctus diam lorem, vel condimentum risus finibus vel. Aliquam dignissim finibus purus sed porta.
+                                        A semper nibh eleifend id. Maecenas vel lectus tortor.
+                                        Pellentesque sed ullamcorper nisi, non consequat justo... <span class="read-more">[View More]</span>
+                                    </div><hr>
+                                    <div class="job-request-footer">
+                                        <div class="col-lg-7">
+                                            <div class="col-lg-3">
+                                                <span>
+                                                <span class="profile small-profile" style="background-image:url(/images/professional.jpg);"></span>
+                                                <span class="profile small-profile" style="background-image:url(/images/professional.jpg);"></span>
+                                                <span class="profile small-profile" style="background-image:url(/images/professional.jpg);"></span>
+                                            </span>
+                                            </div>
+                                            <div class="col-lg-9 job-request-comments">
+                                                <span style="font-weight: 500;font-size: 12px;">
+                                                Worked with (<strong>10</strong>) other people.<br>
+                                                <span class="read-more">See reviews</span>
+                                            </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="col-lg-6 btn btn-default btn-sm btn-mod normal-border-radius">Accept</div>
+                                            <div class="col-lg-6 btn btn-default btn-sm btn-mod normal-border-radius">Decline</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="suggested-pros bx-shadow">
+                                <div class="pro-row">
+                                    <span>
+                                        <span class="profile" style="background-image:url(/images/professional.jpg);"></span>
+                                    </span>
+                                    <div class="job-heading">I need something done did</div>
+                                    <div class="user">Joseph Murimi - <span style="font-weight: 300">Nairobi ke</span></div>
+
+                                    <div class="job-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Curabitur luctus diam lorem, vel condimentum risus finibus vel. Aliquam dignissim finibus purus sed porta.
+                                        A semper nibh eleifend id. Maecenas vel lectus tortor.
+                                        Pellentesque sed ullamcorper nisi, non consequat justo... <span class="read-more">[View More]</span>
+                                    </div><hr>
+                                    <div class="job-request-footer">
+                                        <div class="col-lg-7">
+                                            <div class="col-lg-3">
+                                                <span>
+                                                <span class="profile small-profile" style="background-image:url(/images/professional.jpg);"></span>
+                                                <span class="profile small-profile" style="background-image:url(/images/professional.jpg);"></span>
+                                                <span class="profile small-profile" style="background-image:url(/images/professional.jpg);"></span>
+                                            </span>
+                                            </div>
+                                            <div class="col-lg-9 job-request-comments">
+                                                <span style="font-weight: 500;font-size: 12px;">
+                                                Worked with (<strong>10</strong>) other people.<br>
+                                                <span class="read-more">See reviews</span>
+                                            </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="col-lg-6 btn btn-default btn-sm btn-mod normal-border-radius">Accept</div>
+                                            <div class="col-lg-6 btn btn-default btn-sm btn-mod normal-border-radius">Decline</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="suggested-pros bx-shadow">
+                                <div class="pro-row">
+                                    <span>
+                                        <span class="profile" style="background-image:url(/images/professional.jpg);"></span>
+                                    </span>
+                                    <div class="job-heading">I need something done did</div>
+                                    <div class="user">Joseph Murimi - <span style="font-weight: 300">Nairobi ke</span></div>
+
+                                    <div class="job-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Curabitur luctus diam lorem, vel condimentum risus finibus vel. Aliquam dignissim finibus purus sed porta.
+                                        A semper nibh eleifend id. Maecenas vel lectus tortor.
+                                        Pellentesque sed ullamcorper nisi, non consequat justo... <span class="read-more">[View More]</span>
+                                    </div><hr>
+                                    <div class="job-request-footer">
+                                        <div class="col-lg-7">
+                                            <div class="col-lg-3">
+                                                <span>
+                                                <span class="profile small-profile" style="background-image:url(/images/professional.jpg);"></span>
+                                                <span class="profile small-profile" style="background-image:url(/images/professional.jpg);"></span>
+                                                <span class="profile small-profile" style="background-image:url(/images/professional.jpg);"></span>
+                                            </span>
+                                            </div>
+                                            <div class="col-lg-9 job-request-comments">
+                                                <span style="font-weight: 500;font-size: 12px;">
+                                                Worked with (<strong>10</strong>) other people.<br>
+                                                <span class="read-more">See reviews</span>
+                                            </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="col-lg-6 btn btn-default btn-sm btn-mod normal-border-radius">Accept</div>
+                                            <div class="col-lg-6 btn btn-default btn-sm btn-mod normal-border-radius">Decline</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="ad-aside-bar">
+                                <div class="ad-top-pic">
+                                    <img src="img/advert.jpg">
+                                </div>
+                                <div class="ad-titles">You might consider...</div>
+
+                                <div class="suggested-pros no-background hr-top-line">
+                                    <div class="pro-row">
+                                        <span>
+                                            <span class="profile" style="background-image:url(/images/professional.jpg);"></span>
+                                        </span>
+                                        <div class="user">
+                                            <div class="ad-content-top">
+                                              <div class="ad-name">Joseph Murimi</div>
+                                              <span class="rating">
+                                              <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half-empty"></i>
+                                                <i class="fa fa-star-o"></i>
+                                              </span>
+                                            </span><span style="font-size: 12px;">203 reviews</span>
+                                              <span class="ad-info-icon pull-right icon-info_outline"></span>
+                                            </div>
+
+                                            <div class="ad-description">
+                                              sit amet, consectetur adipiscing elit. Curabitur luctus diam lorem,
+                                              vel condimentum risus finibus vel...
+                                            </div>
+                                            <span class="read-more">Read More</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="suggested-pros no-background hr-top-line">
+                                    <div class="pro-row">
+                                        <span>
+                                            <span class="profile" style="background-image:url(/images/professional.jpg);"></span>
+                                        </span>
+                                        <div class="user">
+                                            <div class="ad-content-top">
+                                              <div class="ad-name">Joseph Murimi</div>
+                                              <span class="rating">
+                                              <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half-empty"></i>
+                                                <i class="fa fa-star-o"></i>
+                                              </span>
+                                            </span><span style="font-size: 12px;">203 reviews</span>
+                                              <span class="ad-info-icon pull-right icon-info_outline"></span>
+                                            </div>
+
+                                            <div class="ad-description">
+                                              sit amet, consectetur adipiscing elit. Curabitur luctus diam lorem,
+                                              vel condimentum risus finibus vel...
+                                            </div>
+                                            <span class="read-more">Read More</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="suggested-pros no-background hr-top-line">
+                                    <div class="pro-row">
+                                        <span>
+                                            <span class="profile" style="background-image:url(/images/professional.jpg);"></span>
+                                        </span>
+                                        <div class="user">
+                                            <div class="ad-content-top">
+                                              <div class="ad-name">Joseph Murimi</div>
+                                              <span class="rating">
+                                              <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half-empty"></i>
+                                                <i class="fa fa-star-o"></i>
+                                              </span>
+                                            </span><span style="font-size: 12px;">203 reviews</span>
+                                              <span class="ad-info-icon pull-right icon-info_outline"></span>
+                                            </div>
+
+                                            <div class="ad-description">
+                                              sit amet, consectetur adipiscing elit. Curabitur luctus diam lorem,
+                                              vel condimentum risus finibus vel...
+                                            </div>
+                                            <span class="read-more">Read More</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="ad-titles">Related Services...</div>
+
+                                <div class="suggested-pros no-background hr-top-line">
+                                    <div class="pro-row">
+                                        <span>
+                                            <span class="profile" style="background-image:url(/images/professional.jpg);"></span>
+                                        </span>
+                                        <div class="user">
+                                            <div class="ad-content-top">
+                                              <div class="ad-name">Joseph Murimi</div>
+                                              <span class="rating">
+                                              <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half-empty"></i>
+                                                <i class="fa fa-star-o"></i>
+                                              </span>
+                                            </span><span style="font-size: 12px;">203 reviews</span>
+                                            </div>
+                                            <div class="ad-description">
+                                              sit amet, consectetur adipiscing elit. Curabitur luctus diam lorem,
+                                              vel condimentum risus finibus vel...
+                                            </div>
+                                            <span class="read-more">Read More</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="container-fluid">
+                  <div class="credits row">
+                    <div class="col-md-6">&copy; 2017 A+ Skill. All rights reserved</div>
+                    <div class="col-md-6"><a href="#">Terms &amp; conditions</a><a href="#">Privacy policy</a>
+                    </div>
+                  </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+ </div><!-- /.wrapper -->
+      <!-- END PAGE CONTENT -->
+
+    <script src=js/jquery-1.12.0.min.js></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/dashboard-scripts.js"></script>
+    <script src="js/morris.min.js"></script>
+    <script src="js/raphael.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/toastr.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
