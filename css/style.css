@@ -479,7 +479,7 @@ ul.nav-user{
     position: fixed;
     top: 0px;
     background: #f8f4f1;
-    padding: 6px 45px;
+    padding: 16px 45px;
     text-align: right;
     width: 80%;
     border-bottom: 1px solid #eceae9;
@@ -4471,9 +4471,9 @@ BUTTON
 
 .btn-mod {
 	padding: 13px 10px !important;
-    font-weight: 600;
+    font-weight: 900;
     min-width: 5px !important;
-    color: #1c9aea ;
+    color: #1c9aea !important; ;
 }
 
 .btn.default{
