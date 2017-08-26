@@ -4023,6 +4023,18 @@ FORM
     text-align: center;
 }
 
+.upload-button {
+    text-align: center;
+    background-color: #fff;
+    height: 90px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px 0px 0px 0px;
+    cursor: pointer;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
 .remove-right-border{
     border-bottom: 1px solid #ddd;
     border-left: 1px solid #ddd;
@@ -9155,11 +9167,20 @@ p, .p{
 
 .ad-aside-bar {
     position: relative;
-    top: 25px;
+    top: -25px;
 }
 
 .ad-top-pic {
     margin-bottom: 40px;
+}
+
+.ad-badge {
+    border: solid 1px #FFA800;
+    color: #FFA800 !important;
+    font-size: 10px;
+    padding: 0px 5px;
+    margin-left: 10px;
+    border-radius: 2px;
 }
 
 .ad-name{
