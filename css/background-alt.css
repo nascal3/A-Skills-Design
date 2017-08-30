@@ -106,22 +106,27 @@ ul.nav-user {
 
 .prof-left-column {
     padding-top: 50px;
-    width: 323px;
+    width: 336px;
     border-right: solid 1px #F3EFEC;
-    min-height: 300px;
+    min-height: 500px;
 }
 
 .prof-mid-column {
     padding-top: 50px;
-
-    width: 100%;
+    width: 570px;
     min-height: 300px;
+    padding-right: 20px;
+}
+
+.prof-mid-column-header {
+    margin-left: 35px;
 }
 
 .prof-right-column {
     padding-top: 50px;
     position: relative;
     left: 20px;
+    width: 250px;
 }
 
 .prof-column-heading {
@@ -133,4 +138,66 @@ ul.nav-user {
 .prop-column-heading-ul {
     margin-top: 10px;
 }
+
+.prof-left-column-menu {
+    color: #1c9aea;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.large-prof-pic {
+    width: 92px !important;
+    height: 92px !important;
+}
+
+.large-name {
+    font-size: 25px !important;
+}
+
+.prof-rev-content-top {
+    position: relative;
+}
+
+.suggested-pros .pro-row{
+    padding: 20px 20px 0px 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.rating {
+   color: #FFA800 !important;
+}
+
+.prof-review-desc {
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.prof-prev-pic {
+     margin-bottom: 20px;
+}
+
+.user {
+    margin-left: 35px;
+}
+
+.prof-prev-pic img {
+    width: 96%;
+}
+
+.prof-about-content {
+    overflow: hidden;
+    width: 200px;
+    height: 180px;
+}
+
+.pro-about-info .heading {
+    color: #1c9aea !important;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
 
