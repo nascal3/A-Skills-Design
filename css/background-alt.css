@@ -257,7 +257,7 @@ ul.nav-user {
     color: #fff;
     text-align: center;
     font-size: 18px;
-    z-index: 2;
+    z-index: 0;
     line-height: 1;
     right: 80px;
     top: 225px;
