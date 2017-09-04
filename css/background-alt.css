@@ -26,6 +26,7 @@ ul.nav-user {
     width: 100%;
     position: absolute;
     top: 90px;
+    height: auto;
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -51,6 +52,13 @@ ul.nav-user {
 .prof-profile-pic.col-lg-4 img {
     height: 213px;
     float: left;
+}
+
+.map-box {
+    height: 223px;
+    border: solid 10px #fff;
+    background-color: #777777;
+    margin-top: 10px;
 }
 
 .prof-name {
@@ -200,4 +208,62 @@ ul.nav-user {
     margin-top: 30px;
 }
 
+.com-heading {
+    font-size: 35px;
+    color: #1c9aea !important;
+    position: relative;
+}
 
+.com-subheading {
+    margin-top: 5px;
+    margin-bottom: 5px;
+   font-size: 16px;
+   font-weight: 900;
+   color: #1c9aea !important;
+   position: relative;
+}
+
+.com-lower-sec {
+    top: 410px;
+}
+
+.com-pic1 img{
+    float: right;
+    width: 197px;
+    position: relative;
+    top: 60px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%) blur(1px);
+    background-color: #777777;
+}
+
+.com-pic2 img{
+    width: 280px;
+    float: right;
+    background-color: #777777;
+}
+
+.com-pic3 img{
+    float: right;
+    width: 197px;
+    position: relative;
+    top: 60px;
+    background-color: #777777;
+}
+
+.com-num-pics {
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    z-index: 2;
+    line-height: 1;
+    right: 80px;
+    top: 225px;
+}
+
+.com-num-pics span {
+    font-size: 55px;
+    font-weight: 900;
+}

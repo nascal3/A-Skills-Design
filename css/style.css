@@ -4023,6 +4023,32 @@ FORM
     text-align: center;
 }
 
+.btn-filled-white{
+    background-color: #fff;
+    transition: all .25s;
+    border: 2px solid #319DEA;
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: #319DEA;
+    margin-left: 5px;
+    cursor: pointer;
+    min-width: 115px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.btn-round-white{
+    background-color: #fff;
+    transition: all .25s;
+    padding: 9px 6px;
+    border-radius: 30px;
+    color: #319DEA;
+    margin-left: 25px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
 .upload-button {
     text-align: center;
     background-color: #fff;
