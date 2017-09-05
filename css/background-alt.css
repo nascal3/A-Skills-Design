@@ -59,6 +59,7 @@ ul.nav-user {
     border: solid 10px #fff;
     background-color: #777777;
     margin-top: 10px;
+    width: 359px;
 }
 
 .prof-name {
@@ -266,4 +267,13 @@ ul.nav-user {
 .com-num-pics span {
     font-size: 55px;
     font-weight: 900;
+}
+
+.com-top-share-btn {
+    position: relative;
+    bottom: 7px;
+}
+
+.com-mid-column {
+    width: 100%;
 }
