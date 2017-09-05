@@ -305,7 +305,6 @@ ul.nav-user {
 
 .com-prod-box {
     cursor: pointer;
-    /* border: solid 1px; */
     height: 250px;
     width: 399px;
     margin-right: 55px;
@@ -315,7 +314,6 @@ ul.nav-user {
 }
 
 .com-prod-box img {
-    /*height: 250px;*/
     width: 399px;
 }
 
@@ -330,4 +328,22 @@ ul.nav-user {
     position: relative;
     bottom: 270px;
     opacity: 0.94;
+    padding: 25px 10px 10px 30px;
+    overflow: hidden;
+}
+
+.com-prod-header {
+    font-size: 20px;
+}
+
+.com-prd-price {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.com-prod-stats {
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 15px;
 }
