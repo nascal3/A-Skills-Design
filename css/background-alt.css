@@ -277,3 +277,57 @@ ul.nav-user {
 .com-mid-column {
     width: 100%;
 }
+
+.day {
+   font-weight: bolder;
+}
+
+.com-biz-info {
+    margin-bottom: 20px;
+}
+
+.com-biz-time {
+    margin-bottom: 7px;
+}
+
+.com-ad-desc {
+    position: relative;
+    right: 40px;
+    width: 382px;
+}
+
+.com-prod-area {
+    /*border: solid 1px green;*/
+    height: 250px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.com-prod-box {
+    cursor: pointer;
+    /* border: solid 1px; */
+    height: 250px;
+    width: 399px;
+    margin-right: 55px;
+    border-radius: 10px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.com-prod-box img {
+    /*height: 250px;*/
+    width: 399px;
+}
+
+.com-prod-box:last-child {
+    margin-right: 0px;
+}
+
+.com-prod-info {
+    width: 300px;
+    height: 260px;
+    background-color: #F3EFEC;
+    position: relative;
+    bottom: 270px;
+    opacity: 0.94;
+}
