@@ -9689,7 +9689,7 @@ p, .p{
 .offer-title:after{
 	content: "";
     display: inline-block;
-    background: url(../images/offer-title.png) no-repeat center;
+    background: url(img/offer-title.png) no-repeat center;
     background-size: cover;
     width: 40px;
     height: 12px;
@@ -10367,7 +10367,7 @@ p, .p{
     background-color: #fff;
     padding: 12px 15px;
     /*margin-bottom: 2px;*/
-    border-radius: 3
+    border-radius: 3px;
 }
 
 .job-request a.panel-toggle{
